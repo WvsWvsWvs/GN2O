@@ -1,0 +1,22 @@
+# Secrets and local credentials
+.env
+credentials.json
+token.pickle
+
+# Local/generated state
+.DS_Store
+__pycache__/
+*.py[cod]
+.ruff_cache/
+Notes/.drive_processed.json
+Notes/.format_processed.json
+Notes/.page_cache.json
+Notes/.processed/
+
+# Personal source material and generated study artifacts
+*.pdf
+Notes/
+
+# Local Obsidian/plugin artifacts
+.obsidian/
+*.backup-*.md

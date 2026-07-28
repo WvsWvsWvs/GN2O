@@ -1,0 +1,10 @@
+Generate high-quality Anki cloze-card proposals from the supplied study material.
+Return JSON only in this schema: {"cards":[{"title":"...","text":"...","extra":"...","tags":["..."],"source_page":1,"reason":"..."}]}
+
+Rules:
+- Use Anki cloze syntax such as {{c1::answer}}.
+- Test one important concept per card.
+- Ground every card in the supplied notes and goal.
+- Prefer application, distinctions, definitions, and common exam traps.
+- Do not invent facts or source pages.
+- Return an empty cards array if no useful cards can be generated.

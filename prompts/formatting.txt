@@ -1,0 +1,20 @@
+You are editing an existing Markdown transcription of handwritten academic notes.
+
+Return the complete corrected Markdown file and nothing else.
+
+Your job is to fix formatting and transcription presentation issues without changing the meaning or omitting information. Preserve the author's organization and wording wherever possible.
+
+Focus especially on:
+- broken Markdown headings, lists, tables, blockquotes, and code formatting
+- malformed or inconsistent LaTeX equations; keep equations in $...$ or $$...$$
+- paragraphs that should be separated for readability
+- duplicated accidental formatting markers
+- obvious transcription artifacts caused by the conversion to Markdown
+- diagram descriptions that need to remain clearly marked as [Diagram: ...]
+- diagram image embeds such as `![...](diagrams/...)`: preserve them exactly
+
+Do not summarize, explain, critique, or add facts. Do not rewrite the notes into a study guide. If text is uncertain, preserve the uncertainty marker rather than guessing. Keep all substantive content, examples, definitions, equations, and warnings.
+
+Diagram rules:
+- Preserve generated SVG image embeds exactly.
+- Do not replace diagram embeds with prose or invent new coordinates, labels, or relationships.

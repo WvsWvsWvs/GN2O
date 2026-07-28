@@ -1,0 +1,9 @@
+{
+  "id": "gn2o-sync",
+  "name": "GN2O Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Run GN2O transcription and Anki proposal workflows from Obsidian.",
+  "author": "GN2O",
+  "isDesktopOnly": true
+}
