@@ -196,4 +196,4 @@ Never commit `.env`, `credentials.json`, `token.pickle`, PDFs, personal notes, c
 
 ## License
 
-No license has been selected yet.
+GN2O is licensed under the [GNU General Public License v3.0 or later](https://www.gnu.org/licenses/gpl-3.0.html).
